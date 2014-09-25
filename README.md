@@ -1,7 +1,7 @@
 hosts-helper
 =
 
-一键同步被封禁域名的 hosts 列表到本地。
+一键在 `/etc/hosts` 中添加被封禁域名的 hosts 列表。
 
 run:
 
