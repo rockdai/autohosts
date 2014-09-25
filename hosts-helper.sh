@@ -1,8 +1,12 @@
 #!/bin/bash
+
+set -e
+
+ONLINE_PATH="http://www.rockdai.com/hosts.txt"
+
 LOCAL_DIR="/etc"
 LOCAL_PATH="$LOCAL_DIR/hosts"
 LOCAL_BAK_PATH="$LOCAL_DIR/hosts.hh_bak"
-ONLINE_PATH="http://www.rockdai.com/hosts.txt"
 ONLINE_CONTENT=`curl $ONLINE_PATH`
 
 # Backup
