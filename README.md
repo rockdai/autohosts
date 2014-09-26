@@ -6,7 +6,6 @@ autohosts
 run:
 
 ```
-git clone https://github.com/rockdai/hosts-helper.git
-cd ./hosts-helper
-sudo sh hosts-helper.sh
+wget https://raw.githubusercontent.com/rockdai/autohosts/master/autohosts.sh
+sudo sh autohosts.sh
 ```
