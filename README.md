@@ -1,4 +1,4 @@
-hosts-helper
+autohosts
 =
 
 一键在 `/etc/hosts` 中添加被封禁域名的 hosts 列表。
