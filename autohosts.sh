@@ -2,7 +2,7 @@
 
 set -e
 
-ONLINE_PATH="http://www.rockdai.com/hosts.txt"
+ONLINE_PATH="http://alsohosts.herokuapp.com/"
 
 LOCAL_DIR="/etc"
 LOCAL_PATH="$LOCAL_DIR/hosts"
