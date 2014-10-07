@@ -22,7 +22,7 @@ userContent=`awk '{ \
     print $0 \
 }' $LOCAL_PATH`
 
-echo "$userContent\n\n\n\n\
+echo -e "$userContent\n\n\n\n\
 #+ROCKDAI_HOST_BEGIN\n\
 $ONLINE_CONTENT\n\
 #+ROCKDAI_HOST_END" > $LOCAL_PATH
